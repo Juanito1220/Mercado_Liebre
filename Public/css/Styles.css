@@ -1,5 +1,12 @@
 *{
-    /* font-family: 'Roboto', sans-serif; */
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
 }
 
 
@@ -26,12 +33,8 @@ font-size: 12px;
 
 header{
     background-color: #eac926;
-    /* height: 450px;
-    width: 100%; */
 
-  
 }
-
 
 li a{
     
@@ -43,24 +46,83 @@ li{
     list-style-type: none;
 }
 
-.burger-menu{
-    width: 2%;
-    height: 4%;
-    background-color: #1259c3; 
+
+.burger-menu i{
+    font-size: 20px;
+    background-color: #0044AA; 
     color: white;
     text-align: center;
     padding: 0.6%;
     padding-top: 6px;
-    border-radius: 2px;
-    margin: auto; 
+    border-radius: 5px;
+    margin: 10px 0px 20px 0px; 
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+
+}
+
+.burger-menu{
+    text-align: center;
+}
+
+.cuotas{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.header2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+
+}
+
+.listas{
+    font-size: 12px;
+    margin-left: 20px;
 
 }
 
 .logo{
-    width: 10%;
-    height:10%;
+    width: 50%;
+    padding:10px;
 }
 
-.cuotas{
-    text-align: center;
+
+.buscador{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+    width: 50%;
+    
+
 }
+
+
+.barra{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 170px;
+}
+
+.lupa{
+   
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+    height: 28%;
+    margin-left: 5px;
+
+}
+
+
+
+

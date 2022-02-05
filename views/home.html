@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f696794974.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/Styles.css">
@@ -18,16 +15,21 @@
 <body>
    
 <header>
-<img class="logo" src="/images/logo-mercado-liebre.svg" alt="">
-<div>
-    <input type="text">
-    <button type="button"> <i class="fas fa-search"> </i>
+    <div class="header2">
+        <img class="logo" src="/images/logo-mercado-liebre.svg" alt="">
 
-</div>
 
-<p class="cuotas"> <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta crédito</p>
+        <div class="buscador">
+            <input class="barra" type="text" placeholder="Buscar productos, marcas y más">
+            <button class="lupa" type="button"> <i class="fas fa-search"> </i>
+        
+        </div>
+        
+        <p class="cuotas"> <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta crédito</p>
+        
+    </div>
 
-<nav>
+<nav class="listas">
 <ul>
     <li><a href="">Ofertas</a></li>
     <li><a href="">Tiendas oficiales</a></li>
@@ -37,7 +39,7 @@
 </nav>
 
 
-<nav>
+<nav class="listas">
 <ul>
     <li><a href="">Créa tu cuenta <i class="far fa-id-card"></i></a></li>
     <li><a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
