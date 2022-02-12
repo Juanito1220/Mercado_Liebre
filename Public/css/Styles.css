@@ -12,6 +12,7 @@ body{
 
 .titulares{
     font-size: 24px;
+    padding: 20px;
 }
 
 .precios{
@@ -20,10 +21,13 @@ body{
 
 .descuentos{
     font-size: 16px;
+    color: #53C43E;
 }
 
 .descripcion{
     font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 0;
 }
 
 .cuerpo{
@@ -145,3 +149,37 @@ section i{
 section p{
     margin: 0 80px;
 }
+
+.banner{
+    height: 60%;
+    width: 100%;
+}
+
+main section img{
+    margin:0 25px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.producto{
+    background: white;
+    margin:0 25px;
+    width: 90%;
+    border-top:solid 1px  ;
+    border-top-color:#ebebeb ;
+}
+
+
+main section i{
+    margin: 10px 80px;
+    color:#53C43E;
+   
+}
+
+main section div i{
+
+   border-radius: 50%;
+   border-color: white;
+   border: solid 2px;
+}
+
