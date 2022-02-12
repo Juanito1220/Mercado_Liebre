@@ -29,6 +29,7 @@ body{
 .cuerpo{
 
 font-size: 12px;
+
 }
 
 header{
@@ -123,6 +124,24 @@ li{
 
 }
 
+footer{
+
+   background: white;
+   text-align: center;
+   margin-top: 40px;
+}
+
+section i{
+    margin-top: 40px;
+    color: dodgerblue;
+    padding: 5px;
+}
+
+.final{
+    margin-top: 40px;
+}
 
 
-
+section p{
+    margin: 0 80px;
+}
