@@ -113,6 +113,7 @@ footer{
    background: white;
    text-align: center;
    margin-top: 40px;
+   
 }
 
 
@@ -212,7 +213,13 @@ main section div .producto{
 
 footer section p{
     margin: 0 40px;
+  
 }
+
+.final{
+    padding-bottom: 30px;
+}
+
 
 
 @media (min-width:361px ){
@@ -259,4 +266,9 @@ footer section p{
     .producto_completo{
         width: 22%;
     } 
+
+    .ordenar{
+        display: flex;
+    }
+    
 }  
