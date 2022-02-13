@@ -9,27 +9,6 @@ body{
     background-color: #ebebeb;
 }
 
-
-.titulares{
-    font-size: 24px;
-    padding: 20px;
-}
-
-.precios{
-    font-size: 18px;
-}
-
-.descuentos{
-    font-size: 16px;
-    color: #53C43E;
-}
-
-.descripcion{
-    font-size: 16px;
-    margin-top: 20px;
-    padding: 10px 0;
-}
-
 .cuerpo{
 
 font-size: 12px;
@@ -64,6 +43,7 @@ li{
     height: 40px;
     width: 40px;
     padding: 10px;
+   
 
 }
 
@@ -135,64 +115,103 @@ footer{
    margin-top: 40px;
 }
 
-section i{
-    margin-top: 40px;
-    color: dodgerblue;
-    padding: 5px;
-}
 
 .final{
     margin-top: 40px;
 }
 
 
-section p{
-    margin: 0 80px;
-}
-
 .banner{
-    height: 60%;
     width: 100%;
 }
 
-main section img{
-    margin:0 25px;
-    width: 90%;
-    margin-top: 10px;
-}
 
-.producto{
-    background: white;
-    margin:0 25px;
-    width: 90%;
-    border-top:solid 1px  ;
-    border-top-color:#ebebeb ;
+footer section i{
+    margin-top: 40px;
+    color: dodgerblue;
+    padding: 5px;
 }
 
 
-main section i{
-    margin: 10px 80px;
-    color:#53C43E;
-   
+.titulares{
+    font-size: 24px;
+    padding: 20px;
 }
 
-main section div i{
-
-   border-radius: 50%;
-   border-color: white;
-   border: solid 2px;
+ 
+.precios{
+    font-size: 18px;
+    width: 30%;
 }
 
-@media (max-width:360px ){
+.descuentos{
+    font-size: 16px;
+    color: #53C43E;
+    width: 70%;
+}
+
+
+
 .descripcion{
-   display: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+} 
+
+ main{
+    width: 90%;
+    margin: 0 auto;
+} 
+
+
+
+.producto_completo{
+    background-color: #fff;    
+    margin: 10px 0px;
+ } 
+
+ main section i{
+    color:#53C43E;
 }
 
-.listas{
-    display: none;
+
+main section .producto_completo img{
+
+    width: 100%;
+    
 }
 
 
+main section div .producto_completo i{
+
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right:20px;
+    top: -15px;
+    
+}
+
+main section div .producto{
+  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+footer section p{
+    margin: 0 40px;
 }
 
 
@@ -204,14 +223,40 @@ main section div i{
     display: none;
 }
 
-    }
-
-
-
-        
-
-
-
-
+ .productos_total{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    } 
     
-    
+    .producto_completo{
+        width: 45%;
+    } 
+
+    .precios,
+    .descuentos{
+        width: 50%;
+    } 
+
+}
+
+
+@media (max-width:360px ){
+.descripcion{
+   display: none;
+}
+
+.listas{
+    display: none;
+}
+
+} 
+
+
+@media (min-width: 769px){
+    .producto_completo{
+        width: 22%;
+    } 
+}  
