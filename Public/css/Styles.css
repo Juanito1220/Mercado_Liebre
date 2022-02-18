@@ -65,7 +65,7 @@ li{
 
 }
 
-.listas{
+.listas1, .listas2{
     font-size: 12px;
     margin-left: 20px;
 
@@ -108,6 +108,18 @@ li{
 
 }
 
+.lupa:hover{
+   
+    background-color: #0022AA;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+    height: 28%;
+    margin-left: 5px;
+
+
+}
+
 footer{
 
    background: white;
@@ -132,6 +144,13 @@ footer section i{
     color: dodgerblue;
     padding: 5px;
 }
+
+footer section i:hover{
+    margin-top: 40px;
+    color: black;
+    padding: 5px;
+}
+
 
 
 .titulares{
@@ -158,6 +177,18 @@ footer section i{
     font-size: 16px;
     font-weight: normal;
     color: #666;
+    opacity:0 ;
+  
+} 
+
+
+.descripcion:hover{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    opacity:100 ;
+    
 } 
 
  main{
@@ -200,6 +231,25 @@ main section div .producto_completo i{
     
 }
 
+
+
+main section div .producto_completo i:hover{
+
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right:20px;
+    top: -15px;
+    transform: rotate(-90deg);
+    
+}
+
 main section div .producto{
   
     width: 100%;
@@ -224,8 +274,14 @@ footer section p{
 
 @media (min-width:361px ){
     .producto_completo{
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0px 0px 0px rgb(100, 100, 100);
+     
     }
+
+    .producto_completo:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      }
+
 .burger-menu{
     display: none;
 }
@@ -247,6 +303,24 @@ footer section p{
         width: 50%;
     } 
 
+   .listas1 li{
+       display: inline;
+       padding: 5px;
+   }
+
+   .listas2 li{
+    display: inline;
+    padding: 5px;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
 }
 
 
@@ -262,7 +336,7 @@ footer section p{
 } 
 
 
-@media (min-width: 769px){
+@media (min-width: 800px){
     .producto_completo{
         width: 22%;
     } 
@@ -272,3 +346,6 @@ footer section p{
     }
     
 }  
+
+ 
+
