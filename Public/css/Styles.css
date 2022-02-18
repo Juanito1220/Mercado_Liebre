@@ -270,7 +270,35 @@ footer section p{
     padding-bottom: 30px;
 }
 
+form {
+    padding: 100px;
+    margin: auto;
+    
+    
+}
 
+.contraseña{
+    padding: 15px;
+    margin: auto;
+}
+
+
+.formulario{
+    width: 40%;
+    margin: auto;
+}
+
+.boton_ingreso{
+  margin-left: 30%;
+   text-align: center;
+    width: 100px;
+    margin-top: 20px;
+    background-color: darkgrey;
+}
+
+.ingreso2{
+    margin-left: 10%;
+}
 
 @media (min-width:361px ){
     .producto_completo{
