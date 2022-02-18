@@ -297,7 +297,6 @@ form {
 }
 
 .boton_ingreso2{
-    margin-left: 35%;
      text-align: center;
       width: 100px;
       margin-top: 20px;
@@ -323,6 +322,21 @@ text-align: center;
 .rectangle{
     width: 400px;
 }
+
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-right: 220px;
+}
+
+
+.boton_borrar{
+    margin-left: 10px;
+     text-align: center;
+      width: 100px;
+      margin-top: 20px;
+      background-color: darkgrey;
+  }
 
 
 
