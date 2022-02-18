@@ -289,16 +289,42 @@ form {
 }
 
 .boton_ingreso{
-  margin-left: 30%;
+  margin-left: 50%;
    text-align: center;
     width: 100px;
     margin-top: 20px;
     background-color: darkgrey;
 }
 
+.boton_ingreso2{
+    margin-left: 35%;
+     text-align: center;
+      width: 100px;
+      margin-top: 20px;
+      background-color: darkgrey;
+  }
+
 .ingreso2{
     margin-left: 10%;
 }
+
+
+.formulario_registro{
+padding: 80px;
+}
+
+.register{
+    padding: 10px;
+}
+.title{
+text-align: center;
+}
+
+.rectangle{
+    width: 400px;
+}
+
+
 
 @media (min-width:361px ){
     .producto_completo{
